@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-principal: #edf6f9;
+    --cor-secundaria: #90a955;
+    --cor-hover: #4f772d;
+    --fonte: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 10vh;
+    background-color: var(--cor-secundaria);
+}
+
+.Navbar {
+    position: fixed;
+}
+
+.Navbar nav {
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    margin-right: 50px;
+    top: 0;
+    right: 0;
+    gap: 20px;
+    padding-top: 20px;
+    font-family: var(--fonte);
+    background-color: var(--cor-secundaria);
+}
+
+.Navbar a {
+    font-size: 25px;
+    outline: none;
+    text-decoration: none;
+    font-family: var(--fonte);
+    color: var(--cor-principal);
+}
+
+.Navbar a:hover {
+    color: var(--cor-hover);
+}
+
+.Gabby {
+    color: #000000;
+}
+
+#Conteudo-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh; 
+    margin-left: 50px;
+    padding-top: 50px;
+}
+
+#Conteudo-inicio h1 {
+    padding-top: 30px;
+    font-size: 42px;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte);
+}
+
+#Conteudo-inicio p {
+    padding-top: 15px;
+    font-size: 22px;
+    margin-right: 60px;
+    font-family: var(--fonte);
+}
+
+.Botoes {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: left;
+    margin-left: 50px;
+}
+
+#Btn-ctt, #Btn-cv {
+    border-radius: 30px;
+    width: 250px;
+    height: 70px;
+    border-color: transparent;
+    background-color: var(--cor-secundaria);
+}
+
+#Btn-ctt a {
+    outline: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-principal);
+}
+
+#Btn-cv a {
+    outline: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-principal);
+}
+
+#Btn-ctt:hover {
+    background-color: var(--cor-hover);
+}
+
+#Btn-cv:hover {
+    background-color: var(--cor-hover);
+}
+
+section {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+    font-family: var(--fonte);
+}
+
+section h1 {
+    font-size: 42px;
+    color: var(--cor-secundaria);
+}
+
+#Sobre-mim p,
+#Habilidades p,
+#Projetos p {
+    padding-top: 15px;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    margin-right: 60px;
+}
+
+#Projetos-img img {
+    padding-top: 60px;
+    width: 700px;
+    height: 400px;
+   cursor: pointer;
+    
+}
+
+
+
+#Projetos-img a {
+    width: 700px;
+    height: 400px;
+}
+
+#Contato {
+    padding-top: 15px;
+    padding-bottom: 70px;
+    display: flex;
+}
+
+#Contato h1 {
+    padding-bottom: 40px;
+}
+
+#Btn-msg {
+    border-radius: 30px;
+    width: 250px;
+    height: 70px;
+    border-color: transparent;
+    background-color: var(--cor-secundaria);
+}
+
+#Btn-msg a {
+    outline: none;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--fonte);
+    color: var(--cor-principal);
+}
+
+#Btn-msg:hover {
+    background-color: var(--cor-hover);
+}
+
+body {
+    background-color: var(--cor-principal);
+}
+
+.Redes-sociais {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: var(--cor-secundaria);
+}
